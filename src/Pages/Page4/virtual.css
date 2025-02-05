@@ -1,0 +1,275 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* About Us Section */
+  .about-us {
+    margin-top: 40px;
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .section-title {
+    font-size: 28px;
+    color: #003366;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #003366;
+    display: inline-block;
+    padding: 5px 15px;
+  }
+  
+  .about-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .about-card {
+    flex: 1;
+    min-width: 300px;
+    max-width: 350px;
+    background: #003366;
+    color: white;
+    padding: 30px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .about-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  /* Why Choose Pathstreams Section */
+/* Why Choose Pathstreams Section */
+.why-choose {
+    display: flex;
+    align-items: center; /* Vertically center the image with the text */
+    justify-content: space-between;
+    padding: 40px 5%;
+    background-color: #fff;
+    gap: 20px;
+    flex-wrap: wrap; /* Stack on small screens */
+  }
+  
+  .why-content {
+    flex: 1;
+    max-width: 55%; /* Control text width */
+  }
+  
+  .why-content h2 {
+    font-size: 26px;
+    color: #003366;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  .why-content p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: justify; /* Neat paragraph alignment */
+  }
+  
+  .why-image {
+    flex: 1;
+    max-width: 40%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .why-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Features Section */
+  .features-section {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 40px 20px;
+    background-color: #f1f1f1;
+    flex-wrap: wrap;
+  }
+  
+  .feature-card {
+    flex: 1;
+    min-width: 280px;
+    max-width: 300px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-8px);
+  }
+  
+  .feature-card h3 {
+    font-size: 20px;
+    color: #003366;
+    margin-bottom: 10px;
+  }
+  
+  .feature-card ul {
+    list-style: disc inside;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .feature-card li {
+    font-size: 14px;
+    margin: 8px 0;
+    color: #555;
+  }
+  /* Well Planned Section */
+.well-planned-section {
+    background-color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .well-planned-section .section-title {
+    font-size: 28px;
+    color: #003366;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    position: relative;
+  }
+  
+  .well-planned-section .section-title::before,
+  .well-planned-section .section-title::after {
+    content: "";
+    display: inline-block;
+    width: 80px;
+    height: 2px;
+    background-color: #003366;
+    margin: 0 15px;
+    vertical-align: middle;
+  }
+  
+  .planned-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .planned-card {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .planned-card:hover {
+    transform: translateY(-8px);
+  }
+  
+  .planned-card h3 {
+    font-size: 20px;
+    color: #003366;
+    margin: 15px 0;
+  }
+  
+  .planned-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 10px;
+  }
+  
+  .planned-card p {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .planned-card p strong {
+    font-weight: bold;
+    color: #000;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 992px) {
+    .planned-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .planned-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .well-planned-section .section-title::before,
+    .well-planned-section .section-title::after {
+      width: 50px;
+    }
+  
+    .planned-card img {
+      height: 120px;
+    }
+  }
+  
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .about-container,
+    .why-choose,
+    .features-section {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .about-card,
+    .feature-card{
+      max-width: 90%;
+      margin: 10px 0;
+    }
+    .why-content,
+  .why-image {
+    max-width: 100%;
+  }
+    .why-content {
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .section-title {
+      font-size: 22px;
+    }
+  
+    .about-card h3,
+    .feature-card h3,
+    .why-content h2 {
+      font-size: 18px;
+    }
+  
+    .about-card p,
+    .feature-card li,
+    .why-content p {
+      font-size: 14px;
+    }
+  }
+  

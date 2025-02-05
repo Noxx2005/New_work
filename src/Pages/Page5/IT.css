@@ -1,0 +1,168 @@
+/* Wrapper to contain both sections */
+.it-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 20px;
+}
+
+/* IT Support Section */
+.it-container {
+    display: flex;
+    background-color: #000;
+    border-radius: 20px;
+    align-items: center;
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+    color: white;
+    padding: 20px;
+}
+
+.it-image {
+    width: 350px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.it-content {
+    max-width: 600px;
+}
+
+.it-hello {
+    font-size: 34px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.it-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #1E2FB0;
+}
+
+.it-description {
+    font-size: 16px;
+    color: white;
+    line-height: 1.6;
+}
+
+/* IT Services Section */
+.it-services {
+    text-align: center;
+    margin-top: 40px;
+    max-width: 800px;
+}
+
+.it-services-title {
+    font-size: 26px;
+    font-weight: bold;
+    color: #1E2FB0;
+}
+
+.it-highlight {
+    font-weight: bold;
+}
+
+.it-service-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.it-service-list li {
+    font-size: 18px;
+    font-weight: 600;
+    color: Black;
+    margin: 5px 0;
+}
+
+/* Updated IT Simplify Section */
+.it-simplify-section {
+    background-color: #000;
+    color: #000;
+    padding: 50px 20px;
+    text-align: center;
+    margin-top: 60px;
+    border-radius: 10px;
+    /* max-width: 800px; */
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+}
+.textbox {
+    padding: 10px; /* Adds padding inside the text box */
+    font-size: 16px; /* Sets the font size */
+    border: 2px solid #ccc; /* Adds a border with a light gray color */
+    border-radius: 5px; /* Rounds the corners of the text box */
+    outline: none; /* Removes the default focus outline */
+    width: 30%; /* Sets the width of the text box */
+    margin-right: 20px;
+    transition: border-color 0.3s ease; /* Adds a smooth transition for the border color */
+}
+
+.textbox:focus {
+    border-color: #1E2FB0; /* Changes the border color when the text box is focused */
+    box-shadow: 0 0 8px rgba(102, 175, 233, 0.6); /* Adds a subtle glow effect on focus */
+}
+
+.it-simplify-title {
+    font-size: 28px;
+    font-weight: bold;  
+    color: #1E2FB0; /* Matching the blue from the image */
+    margin-bottom: 20px;
+}
+
+.it-simplify-description {
+    font-size: 18px;
+    color: #bbb;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* Sign Up Button */
+.it-signup-button {
+    background-color: #1E2FB0;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.it-signup-button:hover {
+    background-color: #3a48d9;
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .it-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .it-image {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .it-content {
+        max-width: 90%;
+    }
+
+    .it-services {
+        max-width: 90%;
+    }
+
+    .it-services-title {
+        font-size: 22px;
+    }
+
+    .it-service-list li {
+        font-size: 16px;
+    }
+}
