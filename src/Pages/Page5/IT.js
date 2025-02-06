@@ -2,7 +2,7 @@ import React from "react";
 import "./IT.css";
 import Header from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
-import ITImage from "../../Assets/features viop.png";
+import ITImage from "../../Assets/f2.jpg";
 
 function IT() {
     return (

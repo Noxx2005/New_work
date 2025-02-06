@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import img1 from "../../Assets/pexels-fauxels-3182773.jpg";
+import img1 from "../../Assets/homepage.jpg";
 import "./SlideShow.css";
 import ChatIcon from "../Home/ChatIcon/ChatIcon.jsx";
 import ContactModal from "../Home/ChatIcon/ContactModal.jsx";

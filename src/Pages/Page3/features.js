@@ -4,6 +4,7 @@ import Footer from "../Footer/Footer";
 import Modal from "react-modal";
 import "./features.css";
 import pic09 from "../../Assets/happy-businesswoman-reading-something-internet-while-using-computer-office.jpg";
+import cloud1 from '../../Assets/cloud1.jpg';
 
 const servicesData = [
   {
@@ -85,7 +86,7 @@ const servicesData = [
         {/* Section 1 - Secure Cloud Storage */}
         <div>
           <img
-            src="your-image-1.jpg"
+            src={cloud1}
             alt="Secure Cloud Storage"
             style={{ width: "300px", height: "200px", objectFit: "cover" }}
           />

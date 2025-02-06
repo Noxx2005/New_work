@@ -1,8 +1,8 @@
 import React from 'react';
 import './ContactForm.css';
-import pic1 from '../../Assets/finance.jpg';
-import pic2 from '../../Assets/r2.jpg';
-import pic3 from '../../Assets/r3.jpg';
+import pic1 from '../../Assets/f4.jpg';
+import pic2 from '../../Assets/f3.jpg';
+import pic3 from '../../Assets/homepage.jpg';
 import { useNavigate } from 'react-router-dom';
 
 const ContactForm = () => {

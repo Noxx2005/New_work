@@ -2,16 +2,16 @@ import React from "react";
 import Header from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import "./virtual.css";
-import pic1 from "../../Assets/happy-businesswoman-reading-something-internet-while-using-computer-office.jpg";
-import pic2 from "../../Assets/gettyimages-1316372350-612x612.jpg";
-import pic3 from "../../Assets/photo_2025-02-03_21-36-40.jpg";
-import contactCenterImage from "../../Assets/happy-businesswoman-reading-something-internet-while-using-computer-office.jpg"; // Replace with your actual image
-import featureImg1 from "../../Assets/finance.jpg";
-import featureImg2 from "../../Assets/futuristic-smart-city-with-5g-global-network-technology.jpg";
-import featureImg3 from "../../Assets/gettyimages-1316372350-612x612.jpg";
-import featureImg4 from "../../Assets/pexels-divinetechygirl-1181271.jpg";
-import featureImg5 from "../../Assets/pexels-cottonbro-4065906.jpg";
-import featureImg6 from "../../Assets/pexels-zeleboba-4211136.jpg";
+import pic1 from "../../Assets/how.jpg";
+import pic2 from "../../Assets/f9.jpg";
+import pic3 from "../../Assets/announce.jpg";
+import contactCenterImage from "../../Assets/whychoose.jpg"; // Replace with your actual image
+import featureImg1 from "../../Assets/phoneEquip.jpg";
+import featureImg2 from "../../Assets/f6.jpg";
+import featureImg3 from "../../Assets/f8.jpg";
+import featureImg4 from "../../Assets/f5.jpg";
+import featureImg5 from "../../Assets/f4.jpg";
+import featureImg6 from "../../Assets/f3.jpg";
 
 const VirtualPage = () => {
   return (
