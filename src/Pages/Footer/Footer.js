@@ -15,8 +15,8 @@ const Footer = () => {
         <div className="footer-section phone-numbers">
           <h4>Phone numbers</h4>
           {/* <p>Toll Free<br/>  <span> 1888-606-0028</span></p> */}
-          <p>Platform Services<br/>  <span>289-633-3514</span></p>
-          <p>Email<br/><span>Info@emparex.net</span></p>
+          <p>Platform Services<br/>  <span>905-614 6203</span></p>
+          <p>Email<br/><span>Info@Providence.net</span></p>
         </div>
         <div className="footer-section about">
           <h4>About</h4>
@@ -29,7 +29,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>©2024 Emparex</p>
+        <p>©2024 Providence</p>
       </div>
     </footer>
   );

@@ -3,8 +3,20 @@ import './ContactForm.css';
 import pic1 from '../../Assets/finance.jpg';
 import pic2 from '../../Assets/r2.jpg';
 import pic3 from '../../Assets/r3.jpg';
+import { useNavigate } from 'react-router-dom';
 
 const ContactForm = () => {
+  const navigate = useNavigate(); // Corrected hook
+
+  const handleRedirect = () => {
+    navigate('/features'); // Corrected navigation function
+  };
+  const handleRedirect2 = () => {
+    navigate('/IT'); // Corrected navigation function
+  };
+  const handleRedirect3 = () => {
+    navigate('/Industries'); // Corrected navigation function
+  };
   return (
     <div className="contact-form-container">
       <h1 className="section-title">Telecommunications</h1>
@@ -17,7 +29,7 @@ const ContactForm = () => {
             We work with just about any technology that a small business would encounter.
             We use this expertise to help customers with small to mid-sized projects.
           </p>
-          <button className="cta-button">BOOK ONLINE</button>
+          <button className="cta-button" onClick={handleRedirect3}>SEE MORE</button>
         </div>
 
         <div className="service-card">
@@ -27,7 +39,7 @@ const ContactForm = () => {
             Do you spend most of your IT budget on maintaining your current system?
             By outsourcing IT management to us, you can focus on what you do best—running your business.
           </p>
-          <button className="cta-button">SEE SERVICES</button>
+          <button className="cta-button"onClick={handleRedirect} >SEE SERVICES</button>
         </div>
 
         <div className="service-card">
@@ -37,7 +49,7 @@ const ContactForm = () => {
             The world of technology can be fast-paced and overwhelming.
             We guarantee professional customer service tailored to your company’s needs.
           </p>
-          <button className="cta-button">CONTACT US</button>
+          <button className="cta-button" onClick={handleRedirect2}>CONTACT US</button>
         </div>
       </div>
     </div>

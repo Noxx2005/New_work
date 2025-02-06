@@ -29,7 +29,7 @@
     .modal-close {
       position: absolute;
       top: 10px;
-      color: #F8B500;
+      color: #1E2FB0;
       right: 10px;
       background: none;
       border: none;
@@ -54,7 +54,7 @@
     }
     
     #submit {
-      background-color:#F8B500;
+      background-color:#1E2FB0;
       color: white;
       border: none;
       cursor: pointer;

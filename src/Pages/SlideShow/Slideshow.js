@@ -27,7 +27,7 @@ const Slideshow = () => {
             <div className="col-md-10">
               <div className="heading">
                 Revolutionize your communication with our reliable and
-                affordable VoIP solutions.
+                affordable Internet solutions.
               </div>
 
               {isModalOpen && (
@@ -48,7 +48,7 @@ const Slideshow = () => {
             Based on a $40/mo. per month credit for 12 months on a 50 Mbps
             Unlimited Internet plan.
           </p>
-          <button className="call-now-btn">CALL NOW</button>
+          <button className="call-now-btn">BOOK NOW</button>
         </div>
       </div>
     </div>

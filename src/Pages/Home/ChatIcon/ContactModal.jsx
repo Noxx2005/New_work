@@ -8,7 +8,7 @@ const ContactModal = ({ isOpen, onClose, onSubmit }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const mailtoLink = `mailto:Info@emparex.net?subject=${encodeURIComponent(question)}&body=${encodeURIComponent(message + '\n\nFrom: ' + email)}`;
+    const mailtoLink = `mailto:Info@Providence.net?subject=${encodeURIComponent(question)}&body=${encodeURIComponent(message + '\n\nFrom: ' + email)}`;
 
     window.location.href = mailtoLink;
 
