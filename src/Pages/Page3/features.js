@@ -10,7 +10,7 @@ import cloud3 from '../../Assets/cloud3.jpg';
 import q1 from '../../Assets/detailService.jpg';
 import q2 from '../../Assets/anounce2.jpg';
 import q3 from '../../Assets/displayreal.jpg';
-
+import { FaChevronDown } from "react-icons/fa";
 
 const servicesData = [
   {
@@ -219,12 +219,12 @@ const FeaturePage = () => {
           <h1 className="services-title">Our Services</h1>
           <div className="services-list">
             {servicesData.map((service) => (
-              <div className="service-item" key={service.id}>
-                <h3>{service.name}</h3>
-                <button className="dropdown-arrow" onClick={() => openModal(service)}>
-                  ⌄
-                </button>
-              </div>
+             <div className="service-item" key={service.id}>
+             <h3>{service.name}</h3>
+             <button className="dropdown-arrow" onClick={() => openModal(service)}>
+               <FaChevronDown />
+             </button>
+           </div>
             ))}
           </div>
         </div>
