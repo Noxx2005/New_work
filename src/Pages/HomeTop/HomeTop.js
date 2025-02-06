@@ -8,9 +8,9 @@ const HomeTop = () => {
       <h1 className="home-title">Home</h1>
       <div className="content-section">
         <div className="text-content">
-          <h2>Work with Pathstreams</h2>
+          <h2>Work with Providence Cananda</h2>
           <p>
-            Pathstreams is a company committed to creating more meaningful
+            Providence Cananda is a company committed to creating more meaningful
             moments of human connection through technology.
           </p>
           <p>
@@ -19,14 +19,14 @@ const HomeTop = () => {
             our communities, and our network.
           </p>
           <p>
-            At Pathstreams, we understand that your business doesn’t have the
+            At Providence Cananda, we understand that your business doesn’t have the
             time for a lengthy phone installation with complicated wiring. That
             is why we have made it really easy to install the base station with
             simple do-it-yourself instructions.
           </p>
         </div>
         <div className="image-content">
-          <img src={pic1} alt="Pathstreams Team" />
+          <img src={pic1} alt="Providence Cananda Team" />
         </div>
       </div>
     </div>

@@ -130,7 +130,7 @@
 }
 .column{
   padding:3px 1px;
-  border-right: #F8B500 2px solid;
+  /* border-right: #F8B500 2px solid; */
   color: #393E46;
 }
 li{
@@ -139,7 +139,7 @@ li{
   padding-right: 18px;
 }
 li:hover{
-color: #F8B500;
+/* color: #F8B500; */
 }
 
 @media (min-width: 1024px) {

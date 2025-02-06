@@ -23,7 +23,7 @@ const VirtualPage = () => {
           <div className="about-card" style={{ backgroundImage: `url(${pic3})` }}>
             <h3>Who are we?</h3>
             <p>
-              Pathstreams is a Canadian-based telecommunication service and support provider.
+              Providence Cananda is a Canadian-based telecommunication service and support provider.
               Our superior services put us in the forefront of our partners and customers.
             </p>
           </div>
@@ -46,11 +46,11 @@ const VirtualPage = () => {
       </section>
       <section className="why-choose">
   <div className="why-content">
-    <h2>Why Choose Pathstreams</h2>
+    <h2>Why Choose Providence Cananda</h2>
     <p>
-      Founded in 2008, Pathstreams is a next-generation Internet, telephone, and long-distance provider with a mission to utilize new and emerging technologies.
-      Business Telephone Solutions, Business Telephone Service, and Business Fiber Internet from Pathstreams are excellent choices to power your business.
-      Pathstreams offers high-quality long-distance calling to any destination at very competitive prices. We provide broadband phones and long-distance calling via access numbers.
+      Founded in 2008, Providence Cananda is a next-generation Internet, telephone, and long-distance provider with a mission to utilize new and emerging technologies.
+      Business Telephone Solutions, Business Telephone Service, and Business Fiber Internet from Providence Cananda are excellent choices to power your business.
+      Providence Cananda offers high-quality long-distance calling to any destination at very competitive prices. We provide broadband phones and long-distance calling via access numbers.
     </p>
     <p>
       Best of all, we tailor our services for every customer need. Whether you’re a small business with one phone or a large company with 100+ remote employees, we have the solution for you.

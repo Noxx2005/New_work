@@ -5,6 +5,12 @@ import Modal from "react-modal";
 import "./features.css";
 import pic09 from "../../Assets/happy-businesswoman-reading-something-internet-while-using-computer-office.jpg";
 import cloud1 from '../../Assets/cloud1.jpg';
+import cloud2 from '../../Assets/cloud2.jpg';
+import cloud3 from '../../Assets/cloud3.jpg';
+import q1 from '../../Assets/detailService.jpg';
+import q2 from '../../Assets/anounce2.jpg';
+import q3 from '../../Assets/displayreal.jpg';
+
 
 const servicesData = [
   {
@@ -28,7 +34,7 @@ const servicesData = [
         {/* Section 1 - Detail Your Services */}
         <div>
           <img
-            src="your-image-1.jpg"
+            src={q1}
             alt="Detail your services"
             style={{ width: "300px", height: "200px", objectFit: "cover" }}
           />
@@ -43,7 +49,7 @@ const servicesData = [
         {/* Section 2 - Announce Coming Events */}
         <div>
           <img
-            src="your-image-2.jpg"
+            src={q2}
             alt="Announce coming events"
             style={{ width: "300px", height: "200px", objectFit: "cover" }}
           />
@@ -57,7 +63,7 @@ const servicesData = [
         {/* Section 3 - Display Real Testimonials */}
         <div>
           <img
-            src="your-image-3.jpg"
+            src={q3}
             alt="Display real testimonials"
             style={{ width: "300px", height: "200px", objectFit: "cover" }}
           />
@@ -100,7 +106,7 @@ const servicesData = [
         {/* Section 2 - Scalable App Hosting */}
         <div>
           <img
-            src="your-image-2.jpg"
+            src={cloud2}
             alt="Scalable App Hosting"
             style={{ width: "300px", height: "200px", objectFit: "cover" }}
           />
@@ -114,7 +120,7 @@ const servicesData = [
         {/* Section 3 - Cloud Backup and Recovery */}
         <div>
           <img
-            src="your-image-3.jpg"
+            src={cloud3}
             alt="Cloud Backup and Recovery"
             style={{ width: "300px", height: "200px", objectFit: "cover" }}
           />

@@ -16,7 +16,7 @@ function IT() {
                         <p className="it-hello">Hello</p>
                         <h1 className="it-title">IT Support Services</h1>
                         <p className="it-description">
-                            Pathstreams provides IT support and Managed Services so that you can effectively scale your growing business.
+                            Providence Cananda provides IT support and Managed Services so that you can effectively scale your growing business.
                             <br />
                             Our support services include computer, server, security network management, and complex solutions.
                         </p>
@@ -26,7 +26,7 @@ function IT() {
                 {/* IT Support Details Section */}
                 <div className="it-services">
                     <h2 className="it-services-title">
-                        Pathstreams IT Support includes <span className="it-highlight">unlimited:</span>
+                        Providence Cananda IT Support includes <span className="it-highlight">unlimited:</span>
                     </h2>
                     <ul className="it-service-list">
                         <li>Onsite Support</li>

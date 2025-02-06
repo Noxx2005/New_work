@@ -16,7 +16,7 @@ const Industries = () => {
           <div className="card">
             <h3>Managed Network Services</h3>
             <p>
-              Pathstreams Network Services helps business customers optimize performance and
+              Providence Cananda Network Services helps business customers optimize performance and
               reduce costs on their network infrastructure. Leverage TERAGO’s advanced management
               systems and network experts to improve performance, reduce IT resources, and cut costs.
             </p>
@@ -29,7 +29,7 @@ const Industries = () => {
             </p>
           </div>
           <div className="card">
-            <h3>Pathstreams Solution</h3>
+            <h3>Providence Cananda Solution</h3>
             <p>
               <strong>Connects different data locations and applications, including data from different identity spaces.</strong>
               Enables collaboration, ensuring safe and effective activation across the network using protocols like MPLS, IPsec, and private connectivity.
